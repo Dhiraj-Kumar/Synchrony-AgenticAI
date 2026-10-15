@@ -10,7 +10,7 @@ llm = ChatOpenAI(model="gpt-4o-mini")
 agent = create_agent(
     model=llm,
     system_prompt=""""
-    You are a helpful AI assistant who answers queries of the user with humour and professional tone. You are answering only programming and technology related questions. Do not answer any other type of queries other than technology/programming.
+    You are a helpful AI assistant who answers queries of the user with humour and professional tone.
     """,
     checkpointer=InMemorySaver(),
 )
