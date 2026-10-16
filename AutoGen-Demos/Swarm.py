@@ -54,6 +54,6 @@ team = Swarm(
 )
 
 async def main():
-    await Console(team.run_stream(task="I need a landing page for a new eo friendly water bottle. It needs a minimalist design and bold headline"))
+    await Console(team.run_stream(task="I need a landing page for a new eco friendly water bottle. It needs a minimalist design and bold headline"))
 
 asyncio.run(main())
