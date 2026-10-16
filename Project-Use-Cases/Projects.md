@@ -1,12 +1,3 @@
-# LangChain 1.x Agent Projects: Tax & Finance Domain
-
-**Audience:** Beginners to intermediate | **Framework:** LangChain 1.x (`create_agent`, `init_chat_model`)
-**Design rule:** Built-in tools do the real work. The LLM plans, chains tools, and explains. Custom code is kept to a small tool or two.
-
-> Educational demos only, not tax or investment advice. Verify rates, slabs, and limits for the current financial year.
-
----
-
 ## Overview
 
 | # | Project | Level | Key Built-in Tools |
